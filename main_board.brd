@@ -147,6 +147,16 @@
 <wire x1="1.8" y1="0.9" x2="-1.8" y2="0.9" width="0.127" layer="21"/>
 <text x="-1.8" y="1.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="C0603">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0603 Package for Capacitors&lt;br/&gt;</description>
+<smd name="P$1" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1" rot="R180"/>
+<smd name="P$2" x="0.75" y="0" dx="0.6" dy="0.9" layer="1" rot="R180"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.7" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.7" x2="1.4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="-1.4" y2="0.7" width="0.127" layer="21"/>
+<text x="-1.4" y="1.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="PP_AnalogIC">
@@ -165,6 +175,182 @@
 <wire x1="2.275" y1="-1.625" x2="-2.275" y2="-1.625" width="0.127" layer="21"/>
 <wire x1="-2.275" y1="-1.625" x2="-2.275" y2="1.625" width="0.127" layer="21"/>
 <text x="-2.925" y="0.975" size="0.8128" layer="21" ratio="16" align="center">1</text>
+</package>
+</packages>
+</library>
+<library name="PP_PowerIC">
+<packages>
+<package name="AEM10941_QFN-28">
+<smd name="P$1" x="-2.4625" y="1.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$2" x="-2.4625" y="1" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$3" x="-2.4625" y="0.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$4" x="-2.4625" y="0" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$5" x="-2.4625" y="-0.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$6" x="-2.4625" y="-1" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$7" x="-2.4625" y="-1.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$8" x="-1.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="-1" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="-0.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$11" x="0" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$12" x="0.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$13" x="1" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$14" x="1.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$15" x="2.4625" y="-1.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$16" x="2.4625" y="-1" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$17" x="2.4625" y="-0.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$18" x="2.4625" y="0" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$19" x="2.4625" y="0.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$20" x="2.4625" y="1" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$21" x="2.4625" y="1.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$22" x="1.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$23" x="1" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$24" x="0.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$25" x="0" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$26" x="-0.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$27" x="-1" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$28" x="-1.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$29" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1.25" y="1.25"/>
+<vertex x="-0.25" y="1.25"/>
+<vertex x="-0.25" y="0.25"/>
+<vertex x="-1.25" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.25" y="1.25"/>
+<vertex x="1.25" y="1.25"/>
+<vertex x="1.25" y="0.25"/>
+<vertex x="0.25" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.25" y="-0.25"/>
+<vertex x="1.25" y="-0.25"/>
+<vertex x="1.25" y="-1.25"/>
+<vertex x="0.25" y="-1.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.25" y="-0.25"/>
+<vertex x="-0.25" y="-0.25"/>
+<vertex x="-0.25" y="-1.25"/>
+<vertex x="-1.25" y="-1.25"/>
+</polygon>
+<wire x1="-3.25" y1="3.25" x2="3.25" y2="3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="3.25" x2="3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-3.25" x2="-3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-3.25" y="3.25"/>
+<vertex x="-2.25" y="3.25"/>
+<vertex x="-2.25" y="2.75"/>
+<vertex x="-2.75" y="2.75"/>
+<vertex x="-2.75" y="2.25"/>
+<vertex x="-3.25" y="2.25"/>
+</polygon>
+<text x="-3.25" y="3.75" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="PP_Connectors">
+<packages>
+<package name="TBL009-254-02GY-2GY">
+<pad name="1A" x="0" y="0" drill="1"/>
+<pad name="1B" x="0" y="5.08" drill="1"/>
+<pad name="2A" x="2.54" y="0" drill="1"/>
+<pad name="2B" x="2.54" y="5.08" drill="1"/>
+<wire x1="-3.2" y1="6.53" x2="3.38" y2="6.53" width="0.1524" layer="21"/>
+<wire x1="3.38" y1="6.53" x2="3.38" y2="-9.27" width="0.1524" layer="21"/>
+<wire x1="3.38" y1="-9.27" x2="-3.2" y2="-9.27" width="0.1524" layer="21"/>
+<wire x1="-3.2" y1="-9.27" x2="-3.2" y2="6.53" width="0.1524" layer="21"/>
+<text x="-2.54" y="7.595" size="0.8128" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;NAME</text>
+<text x="0" y="7.62" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL01</text>
+<text x="2.54" y="7.62" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+<text x="0" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16" align="center">^ENTRY^</text>
+</package>
+</packages>
+</library>
+<library name="PP_Passives">
+<packages>
+<package name="LPS4012">
+<smd name="P$1" x="-1.8" y="0" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="1.8" y="0" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="0.0762" layer="1">
+<vertex x="-0.75" y="1.945"/>
+<vertex x="-1.64" y="1.945"/>
+<vertex x="-2.2" y="1.395"/>
+<vertex x="-2.2" y="-1.395"/>
+<vertex x="-1.64" y="-1.945"/>
+<vertex x="-0.75" y="-1.945"/>
+<vertex x="-0.75" y="-1.17"/>
+<vertex x="-1.33" y="-0.575"/>
+<vertex x="-1.33" y="0.575"/>
+<vertex x="-0.75" y="1.17"/>
+</polygon>
+<polygon width="0.0762" layer="1">
+<vertex x="0.75" y="-1.945"/>
+<vertex x="1.64" y="-1.945"/>
+<vertex x="2.2" y="-1.395"/>
+<vertex x="2.2" y="1.395"/>
+<vertex x="1.64" y="1.945"/>
+<vertex x="0.75" y="1.945"/>
+<vertex x="0.75" y="1.17"/>
+<vertex x="1.33" y="0.575"/>
+<vertex x="1.33" y="-0.575"/>
+<vertex x="0.75" y="-1.17"/>
+</polygon>
+<wire x1="-2.5" y1="2.25" x2="2.5" y2="2.25" width="0.0762" layer="21"/>
+<wire x1="2.5" y1="2.25" x2="2.5" y2="-2.25" width="0.0762" layer="21"/>
+<wire x1="2.5" y1="-2.25" x2="-2.5" y2="-2.25" width="0.0762" layer="21"/>
+<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="2.25" width="0.0762" layer="21"/>
+<circle x="-3" y="0" radius="0.25" width="0.0762" layer="21"/>
+<text x="-2.5" y="2.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.0762" layer="29">
+<vertex x="-0.65" y="2.045"/>
+<vertex x="-1.64" y="2.045"/>
+<vertex x="-2.3" y="1.395"/>
+<vertex x="-2.3" y="-1.395"/>
+<vertex x="-1.64" y="-2.045"/>
+<vertex x="-0.65" y="-2.045"/>
+<vertex x="-0.65" y="-1.17"/>
+<vertex x="-1.23" y="-0.575"/>
+<vertex x="-1.23" y="0.575"/>
+<vertex x="-0.65" y="1.17"/>
+</polygon>
+<polygon width="0.0762" layer="31">
+<vertex x="-0.85" y="1.845"/>
+<vertex x="-1.64" y="1.845"/>
+<vertex x="-2.1" y="1.395"/>
+<vertex x="-2.1" y="-1.395"/>
+<vertex x="-1.64" y="-1.845"/>
+<vertex x="-0.85" y="-1.845"/>
+<vertex x="-0.85" y="-1.17"/>
+<vertex x="-1.43" y="-0.575"/>
+<vertex x="-1.43" y="0.575"/>
+<vertex x="-0.85" y="1.17"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="0.65" y="-2.045"/>
+<vertex x="1.64" y="-2.045"/>
+<vertex x="2.3" y="-1.395"/>
+<vertex x="2.3" y="1.395"/>
+<vertex x="1.64" y="2.045"/>
+<vertex x="0.65" y="2.045"/>
+<vertex x="0.65" y="1.17"/>
+<vertex x="1.23" y="0.575"/>
+<vertex x="1.23" y="-0.575"/>
+<vertex x="0.65" y="-1.17"/>
+</polygon>
+<polygon width="0.0762" layer="31">
+<vertex x="0.85" y="-1.845"/>
+<vertex x="1.64" y="-1.845"/>
+<vertex x="2.1" y="-1.395"/>
+<vertex x="2.1" y="1.395"/>
+<vertex x="1.64" y="1.845"/>
+<vertex x="0.85" y="1.845"/>
+<vertex x="0.85" y="1.17"/>
+<vertex x="1.43" y="0.575"/>
+<vertex x="1.43" y="-0.575"/>
+<vertex x="0.85" y="-1.17"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -426,12 +612,97 @@ design rules under a new name.
 <attribute name="WATTAGE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="PP_AnalogIC" package="MAX9019EKA+T" value="MAX9019EKA+T" x="-20.32" y="13.97" smashed="yes"/>
+<element name="U2" library="PP_PowerIC" package="AEM10941_QFN-28" value="AEM10941-QFN" x="-27.94" y="3.81" smashed="yes">
+<attribute name="MPN" value="AEM10941" x="-27.94" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-31.19" y="7.56" size="0.8128" layer="25" font="vector" ratio="16"/>
+</element>
+<element name="J1" library="PP_Connectors" package="TBL009-254-02GY-2GY" value="TBL009-254-02GY-2GY" x="-35.56" y="10.16" smashed="yes">
+<attribute name="LABEL01" value="SOLAR +" x="-35.56" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="LABEL02" value="SOLAR -" x="-35.56" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TBL009-254-02GY-2GY" x="-35.56" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.1" y="17.755" size="0.8128" layer="25" font="vector" ratio="16" rot="R90" align="center-left"/>
+</element>
+<element name="R7" library="MF_Passives" package="R0805" value="" x="-35.56" y="-3.81" smashed="yes">
+<attribute name="HOUSEPART" value="" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.36" y="-2.71" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="0" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="" x="-35.56" y="-3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R8" library="MF_Passives" package="R0805" value="" x="-35.56" y="-7.62" smashed="yes">
+<attribute name="HOUSEPART" value="" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.36" y="-6.52" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="0" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="" x="-35.56" y="-7.62" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R9" library="MF_Passives" package="R0805" value="" x="-35.56" y="-11.43" smashed="yes">
+<attribute name="HOUSEPART" value="" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.36" y="-10.33" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="0" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="" x="-35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R10" library="MF_Passives" package="R0805" value="" x="-35.56" y="-15.24" smashed="yes">
+<attribute name="HOUSEPART" value="" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.36" y="-14.14" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="0" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="" x="-35.56" y="-15.24" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C2" library="MF_Passives" package="C0603" value="10uF" x="-35.56" y="-19.05" smashed="yes">
+<attribute name="DIELECTRIC" value="" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="HOUSEPART" value="" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C1608X5R1A106M080AC" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.76" y="-17.75" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="1" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-35.56" y="-19.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="L1" library="PP_Passives" package="LPS4012" value="10uH" x="-43.18" y="-15.24" smashed="yes">
+<attribute name="MPN" value="LPS4012-103MRC
+" x="-43.18" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-47.18" y="-10.16" size="0.8128" layer="25" font="vector" ratio="16"/>
+</element>
+<element name="C3" library="MF_Passives" package="C0603" value="22uF" x="-45.72" y="-22.86" smashed="yes">
+<attribute name="DIELECTRIC" value="" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="HOUSEPART" value="" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM188R61A226ME15D" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-47.12" y="-21.76" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="1" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-45.72" y="-22.86" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="U1" pad="P$4"/>
 <contactref element="R2" pad="P$2"/>
 <contactref element="R6" pad="P$2"/>
+<contactref element="J1" pad="2A"/>
+<contactref element="J1" pad="2B"/>
+<contactref element="R10" pad="P$2"/>
+<contactref element="C2" pad="P$2"/>
+<contactref element="C3" pad="P$2"/>
+<wire x1="-34.81" y1="-19.05" x2="-44.97" y2="-22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.61" y1="-15.24" x2="-34.81" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="10.16" x2="-34.61" y2="-15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="15.24" x2="-33.02" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.495" y1="12.995" x2="-33.02" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="12.7" x2="-21.495" y2="12.995" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="5.08" x2="-14.29" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -478,6 +749,56 @@ design rules under a new name.
 </signal>
 <signal name="!OUT">
 <contactref element="U1" pad="P$7"/>
+</signal>
+<signal name="SOLAR_+V">
+<contactref element="U2" pad="P$25"/>
+<contactref element="J1" pad="1B"/>
+<contactref element="J1" pad="1A"/>
+<contactref element="U2" pad="P$26"/>
+<wire x1="-35.56" y1="15.24" x2="-35.56" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.44" y1="6.2725" x2="-35.56" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.94" y1="6.2725" x2="-28.44" y2="6.2725" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VBOOST">
+<contactref element="R7" pad="P$1"/>
+</signal>
+<signal name="SET_OVDIS">
+<contactref element="R7" pad="P$2"/>
+<contactref element="R8" pad="P$1"/>
+<contactref element="U2" pad="P$24"/>
+<wire x1="-34.61" y1="-3.81" x2="-36.51" y2="-7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.44" y1="6.2725" x2="-34.61" y2="-3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SET_CHRDY">
+<contactref element="R8" pad="P$2"/>
+<contactref element="R9" pad="P$1"/>
+<contactref element="U2" pad="P$23"/>
+<wire x1="-34.61" y1="-7.62" x2="-36.51" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.94" y1="6.2725" x2="-34.61" y2="-7.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SET_OVCH">
+<contactref element="R9" pad="P$2"/>
+<contactref element="R10" pad="P$1"/>
+<contactref element="U2" pad="P$22"/>
+<wire x1="-34.61" y1="-11.43" x2="-36.51" y2="-15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.44" y1="6.2725" x2="-34.61" y2="-11.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BUFSRC">
+<contactref element="U2" pad="P$27"/>
+<contactref element="C2" pad="P$1"/>
+<contactref element="L1" pad="P$2"/>
+<wire x1="-36.31" y1="-19.05" x2="-41.38" y2="-15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.94" y1="6.2725" x2="-41.38" y2="-15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWBOOST">
+<contactref element="U2" pad="P$28"/>
+<contactref element="L1" pad="P$1"/>
+<wire x1="-29.44" y1="6.2725" x2="-44.98" y2="-15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BOOST">
+<contactref element="U2" pad="P$1"/>
+<contactref element="C3" pad="P$1"/>
+<wire x1="-30.4025" y1="5.31" x2="-46.47" y2="-22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
