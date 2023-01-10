@@ -2070,47 +2070,47 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="45.72" y="76.2" smashed="yes">
-<attribute name="NAME" x="55.88" y="81.28" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="55.88" y="78.74" size="1.016" layer="95" font="vector"/>
+<instance part="U1" gate="G$1" x="66.04" y="63.5" smashed="yes">
+<attribute name="NAME" x="76.2" y="68.58" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="76.2" y="66.04" size="1.016" layer="95" font="vector"/>
 </instance>
-<instance part="U1" gate="G$2" x="101.6" y="76.2" smashed="yes">
-<attribute name="NAME" x="111.76" y="81.28" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="111.76" y="78.74" size="1.016" layer="95" font="vector"/>
+<instance part="U1" gate="G$2" x="121.92" y="63.5" smashed="yes">
+<attribute name="NAME" x="132.08" y="68.58" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="132.08" y="66.04" size="1.016" layer="95" font="vector"/>
 </instance>
-<instance part="U$1" gate="G$1" x="5.08" y="99.06" smashed="yes">
-<attribute name="VALUE" x="5.08" y="101.6" size="1.016" layer="96" font="vector" align="center"/>
+<instance part="U$1" gate="G$1" x="25.4" y="86.36" smashed="yes">
+<attribute name="VALUE" x="25.4" y="88.9" size="1.016" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="U$2" gate="G$1" x="5.08" y="45.72" smashed="yes">
-<attribute name="VALUE" x="5.08" y="43.18" size="1.016" layer="96" font="vector" rot="R180" align="center"/>
+<instance part="U$2" gate="G$1" x="25.4" y="33.02" smashed="yes">
+<attribute name="VALUE" x="25.4" y="30.48" size="1.016" layer="96" font="vector" rot="R180" align="center"/>
 </instance>
-<instance part="R1" gate="G$1" x="12.7" y="83.82" smashed="yes">
-<attribute name="NAME" x="15.24" y="85.344" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="15.24" y="82.296" size="1.016" layer="96" font="vector"/>
+<instance part="R1" gate="G$1" x="33.02" y="71.12" smashed="yes">
+<attribute name="NAME" x="35.56" y="72.644" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="35.56" y="69.596" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R2" gate="G$1" x="12.7" y="63.5" smashed="yes">
-<attribute name="NAME" x="15.24" y="65.024" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="15.24" y="61.976" size="1.016" layer="96" font="vector"/>
+<instance part="R2" gate="G$1" x="33.02" y="50.8" smashed="yes">
+<attribute name="NAME" x="35.56" y="52.324" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="35.56" y="49.276" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R3" gate="G$1" x="20.32" y="63.5" smashed="yes">
-<attribute name="NAME" x="22.86" y="65.024" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="22.86" y="61.976" size="1.016" layer="96" font="vector"/>
+<instance part="R3" gate="G$1" x="40.64" y="50.8" smashed="yes">
+<attribute name="NAME" x="43.18" y="52.324" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="43.18" y="49.276" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R4" gate="G$1" x="40.64" y="63.5" smashed="yes">
-<attribute name="NAME" x="43.18" y="65.024" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="43.18" y="61.976" size="1.016" layer="96" font="vector"/>
+<instance part="R4" gate="G$1" x="60.96" y="50.8" smashed="yes">
+<attribute name="NAME" x="63.5" y="52.324" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="63.5" y="49.276" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="30.48" y="63.5" smashed="yes">
-<attribute name="NAME" x="33.02" y="65.024" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="33.02" y="61.976" size="1.016" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="50.8" y="50.8" smashed="yes">
+<attribute name="NAME" x="53.34" y="52.324" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="53.34" y="49.276" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R5" gate="G$1" x="93.98" y="83.82" smashed="yes">
-<attribute name="NAME" x="96.52" y="85.344" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="96.52" y="82.296" size="1.016" layer="96" font="vector"/>
+<instance part="R5" gate="G$1" x="114.3" y="71.12" smashed="yes">
+<attribute name="NAME" x="116.84" y="72.644" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="116.84" y="69.596" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R6" gate="G$1" x="93.98" y="63.5" smashed="yes">
-<attribute name="NAME" x="96.52" y="65.024" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="96.52" y="61.976" size="1.016" layer="96" font="vector"/>
+<instance part="R6" gate="G$1" x="114.3" y="50.8" smashed="yes">
+<attribute name="NAME" x="116.84" y="52.324" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="116.84" y="49.276" size="1.016" layer="96" font="vector"/>
 </instance>
 <instance part="U2" gate="G$1" x="114.3" y="2.54" smashed="yes">
 <attribute name="NAME" x="114.3" y="7.62" size="1.016" layer="95" font="vector" align="top-left"/>
@@ -2330,19 +2330,19 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <net name="GND" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VEE"/>
-<wire x1="53.34" y1="66.04" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="53.34" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="12.7" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
-<label x="7.62" y="53.34" size="1.4224" layer="95" font="vector"/>
-<wire x1="12.7" y1="58.42" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
-<junction x="12.7" y="53.34"/>
+<wire x1="33.02" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<label x="27.94" y="40.64" size="1.4224" layer="95" font="vector"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<junction x="33.02" y="40.64"/>
 <pinref part="R2" gate="G$1" pin="P$2"/>
 <pinref part="R6" gate="G$1" pin="P$2"/>
-<wire x1="53.34" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="53.34" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
-<junction x="53.34" y="53.34"/>
+<wire x1="73.66" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="40.64" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<junction x="73.66" y="40.64"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="PIN2"/>
@@ -2446,31 +2446,31 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="53.34" y1="81.28" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="68.58" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="12.7" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="91.44" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
-<label x="7.62" y="91.44" size="1.4224" layer="95" font="vector"/>
-<wire x1="12.7" y1="88.9" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
-<junction x="12.7" y="91.44"/>
+<wire x1="33.02" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="78.74" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<label x="27.94" y="78.74" size="1.4224" layer="95" font="vector"/>
+<wire x1="33.02" y1="76.2" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<junction x="33.02" y="78.74"/>
 <pinref part="R1" gate="G$1" pin="P$1"/>
 <pinref part="R5" gate="G$1" pin="P$1"/>
-<wire x1="93.98" y1="88.9" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<junction x="53.34" y="91.44"/>
+<wire x1="114.3" y1="76.2" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<junction x="73.66" y="78.74"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="INPUT_1+"/>
-<wire x1="43.18" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="76.2" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="76.2" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-<junction x="12.7" y="76.2"/>
-<wire x1="20.32" y1="68.58" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
-<junction x="20.32" y="76.2"/>
+<wire x1="63.5" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
+<junction x="33.02" y="63.5"/>
+<wire x1="40.64" y1="55.88" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<junction x="40.64" y="63.5"/>
 <pinref part="R1" gate="G$1" pin="P$2"/>
 <pinref part="R2" gate="G$1" pin="P$1"/>
 <pinref part="R3" gate="G$1" pin="P$1"/>
@@ -2479,54 +2479,54 @@ Description: Fixed Terminal Blocks 15MM FIXED PCB 2P VERTICAL 85 AMP</descriptio
 <net name="OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUTPUT_1"/>
-<wire x1="63.5" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="73.66" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="71.12" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="55.88" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
-<label x="66.04" y="73.66" size="1.4224" layer="95" font="vector"/>
-<wire x1="40.64" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<junction x="40.64" y="55.88"/>
-<wire x1="30.48" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="55.88" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="58.42" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="43.18" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<label x="86.36" y="60.96" size="1.4224" layer="95" font="vector"/>
+<wire x1="60.96" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<junction x="60.96" y="43.18"/>
+<wire x1="50.8" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="P$2"/>
 <pinref part="R4" gate="G$1" pin="P$2"/>
 <pinref part="C1" gate="G$1" pin="P$2"/>
-<wire x1="30.48" y1="60.96" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<junction x="30.48" y="55.88"/>
+<wire x1="50.8" y1="48.26" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<junction x="50.8" y="43.18"/>
 <pinref part="U1" gate="G$2" pin="INPUT_2-"/>
-<wire x1="99.06" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
-<junction x="73.66" y="71.12"/>
+<wire x1="119.38" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<junction x="93.98" y="58.42"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="INPUT_1-"/>
-<wire x1="40.64" y1="68.58" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="P$1"/>
 <pinref part="C1" gate="G$1" pin="P$1"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<junction x="40.64" y="71.12"/>
+<wire x1="50.8" y1="53.34" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="60.96" y="58.42"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="P$1"/>
 <pinref part="R5" gate="G$1" pin="P$2"/>
-<wire x1="93.98" y1="68.58" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="55.88" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$2" pin="INPUT_2+"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<junction x="93.98" y="76.2"/>
+<wire x1="114.3" y1="63.5" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<junction x="114.3" y="63.5"/>
 </segment>
 </net>
 <net name="!OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="OUTPUT_2"/>
-<wire x1="119.38" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
-<label x="127" y="73.66" size="1.4224" layer="95" font="vector" xref="yes"/>
+<wire x1="139.7" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
+<label x="147.32" y="60.96" size="1.4224" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SOLAR_+V" class="0">
