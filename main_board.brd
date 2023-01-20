@@ -176,6 +176,22 @@
 <wire x1="-2.275" y1="-1.625" x2="-2.275" y2="1.625" width="0.127" layer="21"/>
 <text x="-2.925" y="0.975" size="0.8128" layer="21" ratio="16" align="center">1</text>
 </package>
+<package name="DG469_SOIC-8">
+<smd name="P$1" x="-2.5273" y="1.905" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.5273" y="0.635" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$3" x="-2.5273" y="-0.635" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$4" x="-2.5273" y="-1.905" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$5" x="2.5273" y="-1.905" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$6" x="2.5273" y="-0.635" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$7" x="2.5273" y="0.635" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<smd name="P$8" x="2.5273" y="1.905" dx="0.5588" dy="1.1938" layer="1" rot="R90"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.1524" layer="21"/>
+<text x="-4.445" y="1.905" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+<text x="-3.81" y="3.81" size="0.8128" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="PP_PowerIC">
@@ -467,6 +483,62 @@
 <wire x1="0" y1="-1.2" x2="0" y2="-0.6" width="0.127" layer="25"/>
 <wire x1="0" y1="1.2" x2="0" y2="0.6" width="0.127" layer="25"/>
 <wire x1="0" y1="-0.6" x2="-0.4" y2="0.4" width="0.127" layer="25"/>
+</package>
+</packages>
+</library>
+<library name="PP_Displays">
+<packages>
+<package name="VI-422-DP-RC-S">
+<pad name="P$1" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$2" x="2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$3" x="5.08" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$4" x="7.62" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$5" x="10.16" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$6" x="12.7" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$7" x="15.24" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$8" x="17.78" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$9" x="20.32" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$10" x="22.86" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$11" x="25.4" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$12" x="27.94" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$13" x="30.48" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$14" x="33.02" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$15" x="35.56" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$16" x="38.1" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$17" x="40.64" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$18" x="43.18" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$19" x="45.72" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$20" x="48.26" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$21" x="48.26" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$22" x="45.72" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$23" x="43.18" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$24" x="40.64" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$25" x="38.1" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$26" x="35.56" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$27" x="33.02" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$28" x="30.48" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$29" x="27.94" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$30" x="25.4" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$31" x="22.86" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$32" x="20.32" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$33" x="17.78" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$34" x="15.24" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$35" x="12.7" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$36" x="10.16" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$37" x="7.62" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$38" x="5.08" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$39" x="2.54" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<pad name="P$40" x="0" y="30.5" drill="0.8" shape="long" rot="R270"/>
+<wire x1="-1.27" y1="3.85" x2="49.53" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="49.53" y1="3.85" x2="49.53" y2="26.65" width="0.1524" layer="21"/>
+<wire x1="49.53" y1="26.65" x2="-1.27" y2="26.65" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="26.65" x2="-1.27" y2="3.85" width="0.1524" layer="21"/>
+<text x="25.4" y="15.24" size="12" layer="21" font="vector" align="center">8888</text>
+<text x="13.462" y="12.192" size="6" layer="21" font="vector" align="center">.</text>
+<text x="24.765" y="12.192" size="6" layer="21" font="vector" align="center">.</text>
+<text x="35.814" y="12.192" size="6" layer="21" font="vector" align="center">.</text>
+<text x="24.765" y="16.129" size="6" layer="21" font="vector" align="center">:</text>
+<text x="0" y="25.4" size="1.27" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -1161,6 +1233,33 @@ design rules under a new name.
 <attribute name="VOLTAGE" value="" x="-100.33" y="-176.53" size="1.778" layer="27" display="off"/>
 <attribute name="WATTAGE" value="" x="-100.33" y="-176.53" size="1.778" layer="27" display="off"/>
 </element>
+<element name="DISP1" library="PP_Displays" package="VI-422-DP-RC-S" value="VI-422-DP-RC-S" x="-101.6" y="-210.82" smashed="yes">
+<attribute name="MPN" value="VI-422-DP-RC-S" x="-101.6" y="-210.82" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.6" y="-185.42" size="1.27" layer="25" font="vector" ratio="16" align="top-left"/>
+</element>
+<element name="U4" library="PP_AnalogIC" package="DG469_SOIC-8" value="DG469EY-T1-E3" x="-97.79" y="-217.17" smashed="yes">
+<attribute name="NAME" x="-101.6" y="-213.36" size="0.8128" layer="25" font="vector" ratio="16" align="top-left"/>
+</element>
+<element name="R31" library="MF_Passives" package="R0805" value="10K" x="-100.33" y="-223.52" smashed="yes">
+<attribute name="HOUSEPART" value="" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-102.13" y="-222.42" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="0" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="" x="-100.33" y="-223.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R32" library="MF_Passives" package="R0805" value="0" x="-100.33" y="-227.33" smashed="yes">
+<attribute name="HOUSEPART" value="" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-102.13" y="-226.23" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="0" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="" x="-100.33" y="-227.33" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1198,6 +1297,9 @@ design rules under a new name.
 <contactref element="C11" pad="P$2"/>
 <contactref element="R29" pad="P$1"/>
 <contactref element="R30" pad="P$1"/>
+<contactref element="U4" pad="P$3"/>
+<contactref element="R31" pad="P$2"/>
+<contactref element="R32" pad="P$1"/>
 <wire x1="-100.85" y1="-157.48" x2="-101.28" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-100.85" y1="-161.29" x2="-100.85" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-100.85" y1="-168.91" x2="-100.85" y2="-161.29" width="0" layer="19" extent="1-1"/>
@@ -1231,6 +1333,9 @@ design rules under a new name.
 <wire x1="-21.495" y1="12.995" x2="-25.4775" y2="3.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="12.7" x2="-21.495" y2="12.995" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="5.08" x2="-14.29" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.3173" y1="-217.805" x2="-101.28" y2="-176.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.38" y1="-223.52" x2="-100.3173" y2="-217.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.28" y1="-227.33" x2="-99.38" y2="-223.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="P$8"/>
@@ -1241,10 +1346,12 @@ design rules under a new name.
 <contactref element="SW2" pad="P$4"/>
 <contactref element="C9" pad="P$1"/>
 <contactref element="C11" pad="P$1"/>
+<contactref element="U4" pad="P$4"/>
 <wire x1="-102.35" y1="-157.48" x2="-96.985" y2="-149.665" width="0" layer="19" extent="1-1"/>
 <wire x1="-102.35" y1="-168.91" x2="-102.35" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-94.81" y1="-100.035" x2="-96.985" y2="-149.665" width="0" layer="19" extent="1-1"/>
 <wire x1="-101.6" y1="-92.71" x2="-94.81" y2="-100.035" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.3173" y1="-219.075" x2="-102.35" y2="-168.91" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.27" y1="1.27" x2="-101.6" y2="-92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.27" y1="8.89" x2="-21.27" y2="1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.145" y1="14.945" x2="-21.27" y2="8.89" width="0" layer="19" extent="1-1"/>
@@ -1265,6 +1372,8 @@ design rules under a new name.
 <contactref element="C1" pad="P$2"/>
 <contactref element="U1" pad="P$6"/>
 <contactref element="TP5" pad="P$1"/>
+<contactref element="U4" pad="P$1"/>
+<wire x1="-100.3173" y1="-215.265" x2="-100.33" y2="-129.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="1.27" x2="-100.33" y2="-129.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.37" y1="5.08" x2="-14.29" y2="1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="8.89" x2="-19.37" y2="5.08" width="0" layer="19" extent="1-1"/>
@@ -1288,6 +1397,10 @@ design rules under a new name.
 <signal name="!OUT">
 <contactref element="U1" pad="P$7"/>
 <contactref element="TP6" pad="P$1"/>
+<contactref element="DISP1" pad="P$1"/>
+<contactref element="DISP1" pad="P$40"/>
+<wire x1="-101.6" y1="-180.32" x2="-100.33" y2="-135.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.6" y1="-210.82" x2="-101.6" y2="-180.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.145" y1="14.295" x2="-100.33" y2="-135.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOLAR_+V">
@@ -1470,6 +1583,10 @@ design rules under a new name.
 </signal>
 <signal name="EN">
 <contactref element="U3" pad="P$8"/>
+<contactref element="U4" pad="P$6"/>
+<contactref element="R31" pad="P$1"/>
+<wire x1="-95.2627" y1="-217.805" x2="-90.61" y2="-100.035" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.28" y1="-223.52" x2="-95.2627" y2="-217.805" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!PB">
 <contactref element="U3" pad="P$7"/>
@@ -1510,6 +1627,57 @@ design rules under a new name.
 <contactref element="U3" pad="P$4"/>
 <contactref element="R30" pad="P$2"/>
 <wire x1="-99.38" y1="-176.53" x2="-94.81" y2="-99.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FEED_CAT">
+<contactref element="DISP1" pad="P$35"/>
+<contactref element="DISP1" pad="P$36"/>
+<contactref element="DISP1" pad="P$37"/>
+<contactref element="DISP1" pad="P$5"/>
+<contactref element="DISP1" pad="P$20"/>
+<contactref element="DISP1" pad="P$23"/>
+<contactref element="DISP1" pad="P$19"/>
+<contactref element="DISP1" pad="P$18"/>
+<contactref element="DISP1" pad="P$17"/>
+<contactref element="DISP1" pad="P$30"/>
+<contactref element="DISP1" pad="P$31"/>
+<contactref element="DISP1" pad="P$32"/>
+<contactref element="DISP1" pad="P$9"/>
+<contactref element="DISP1" pad="P$10"/>
+<contactref element="DISP1" pad="P$25"/>
+<contactref element="DISP1" pad="P$14"/>
+<contactref element="DISP1" pad="P$13"/>
+<contactref element="DISP1" pad="P$26"/>
+<contactref element="DISP1" pad="P$27"/>
+<contactref element="U4" pad="P$8"/>
+<wire x1="-66.04" y1="-180.32" x2="-68.58" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.5" y1="-180.32" x2="-66.04" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="-180.32" x2="-63.5" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.2" y1="-180.32" x2="-68.58" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.74" y1="-180.32" x2="-76.2" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.28" y1="-180.32" x2="-78.74" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.9" y1="-180.32" x2="-81.28" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.44" y1="-180.32" x2="-88.9" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.98" y1="-180.32" x2="-91.44" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.44" y1="-210.82" x2="-91.44" y2="-180.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.2627" y1="-215.265" x2="-91.44" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.28" y1="-210.82" x2="-91.44" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.74" y1="-210.82" x2="-81.28" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.12" y1="-210.82" x2="-78.74" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="-210.82" x2="-71.12" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="-210.82" x2="-68.58" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="-210.82" x2="-60.96" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.88" y1="-210.82" x2="-58.42" y2="-210.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.34" y1="-210.82" x2="-55.88" y2="-210.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="!FEED_CAT">
+<contactref element="DISP1" pad="P$38"/>
+<contactref element="U4" pad="P$2"/>
+<wire x1="-96.52" y1="-180.32" x2="-100.3173" y2="-216.535" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R32" pad="P$2"/>
+<contactref element="U4" pad="P$7"/>
+<wire x1="-95.2627" y1="-216.535" x2="-99.38" y2="-227.33" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
